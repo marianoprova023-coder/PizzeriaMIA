@@ -1,0 +1,13 @@
+{
+  "name": "react-example",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx -y serve -p 3000 .",
+    "build": "echo 'Static site, no build needed'",
+    "preview": "npx -y serve -p 3000 ."
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

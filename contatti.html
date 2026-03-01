@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatti | Pizzeria al Taglio Da Mariano</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">Da Mariano</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="prezzi.html">Prezzi</a></li>
+                    <li><a href="dove-siamo.html">Dove Siamo</a></li>
+                    <li><a href="contatti.html" class="active">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contattaci</h2>
+            <p style="text-align: center; margin-bottom: 3rem;">Vuoi prenotare una teglia o chiedere informazioni? Siamo a tua disposizione.</p>
+            
+            <div class="contact-container">
+                <div>
+                    <h3>I Nostri Recapiti</h3>
+                    <p style="margin-bottom: 1rem;"><strong>Telefono:</strong><br><a href="tel:061234567" style="color: var(--primary); text-decoration: none; font-size: 1.2rem;">06 1234567</a></p>
+                    <p style="margin-bottom: 1rem;"><strong>WhatsApp:</strong><br><a href="https://wa.me/393331234567" style="color: #25D366; text-decoration: none; font-size: 1.2rem;">+39 333 1234567</a></p>
+                    <p style="margin-bottom: 1rem;"><strong>Email:</strong><br>info@pizzeriadamariano.it</p>
+                    
+                    <div style="margin-top: 2rem; padding: 1rem; background: var(--secondary); border-left: 4px solid var(--primary);">
+                        <p><strong>Prenotazioni:</strong><br>Per ordini di teglie intere o grandi quantità, ti preghiamo di chiamarci con almeno 2 ore di anticipo.</p>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3>Inviaci un Messaggio</h3>
+                    <form class="contact-form" action="#">
+                        <div>
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" placeholder="Il tuo nome" required>
+                        </div>
+                        <div>
+                            <label for="phone">Telefono</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Il tuo numero" required>
+                        </div>
+                        <div>
+                            <label for="message">Messaggio / Ordine</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Cosa desideri ordinare?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn" style="width: 100%; border: none; cursor: pointer;">Invia Messaggio</button>
+                        <p class="form-note">
+                            * Nota: Questo modulo è solo dimostrativo. Per ordini urgenti, utilizza il telefono o WhatsApp. L'invio tramite questo form non è attualmente attivo senza un server.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h4>Da Mariano</h4>
+                <p>Pizzeria al taglio artigianale.</p>
+            </div>
+            <div>
+                <h4>Orari</h4>
+                <p>Lun - Sab: 11:00 - 21:00<br>Domenica: Chiuso</p>
+            </div>
+            <div>
+                <h4>Dove Siamo</h4>
+                <p>Via delle Pizze, 12<br>00100 Roma (RM)</p>
+            </div>
+            <div>
+                <h4>Social</h4>
+                <p>Facebook | Instagram</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Pizzeria al Taglio Da Mariano. Tutti i diritti riservati.
+        </div>
+    </footer>
+</body>
+</html>
